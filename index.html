@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITHUB form</title>
+  <link rel="stylesheet" href="DODreg.css">
+</head>
+<body>
+<div class="ring">
+  <i style="--clr:#8B008B;"></i>
+  <i style="--clr:#4B0082;"></i>
+  <i style="--clr:#483D8B;"></i>
+  <div class="login">
+    <h2>WELCOME TO ITHUB</h2>
+    <div class="inputBx">
+      <input type="text" id="name_kid" placeholder="Имя" required>
+    </div>
+    <div class="inputBx">
+      <input type="text" id="phone_kid" placeholder="Телефон" required>
+    </div>
+    <div class="inputBx">
+      <input type="text"id="grade" placeholder="Класс" required>
+    </div>
+     <div class="inputBx">
+      <input type="text" id="enter_point" placeholder="Откуда о нас узнали?" required>
+    </div>
+      <div class="inputBx">
+        <input type="text" id="name_parent1" placeholder="Имя Родителя *">
+      </div>
+    <div class="inputBx">
+      <input type="text" id="phone_parent1" placeholder="Телефон Родителя *">
+    </div>
+    <div class="inputBx">
+      <input type="submit" value="Зарегестрироваться">
+    </div>
+    <div class="links">
+    </div>
+    <p class="egirl">* - необязательные поля</p>
+  </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script type="module" src="logic.js"></script>
+</html>
