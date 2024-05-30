@@ -30,7 +30,7 @@ body {
   overflow: hidden;
 }
 .ring {
-  position: relative;
+  position: absolute;
   width: 700px;
   height: 700px;
   display: flex;
