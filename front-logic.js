@@ -4,3 +4,14 @@ $(document).ready(function() {
     });
   });
   
+
+  
+$(document).ready(function() {
+  $('input[type="submit"]').click(function() {
+      clearInputFields();
+  });
+});
+
+function clearInputFields() {
+  $('input[type="text"]').val(''); 
+}  
